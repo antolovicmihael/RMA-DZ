@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">LV4</string>
+    <string name="game_title">GUESS THE NUMBER</string>
+    <string name="play">PLAY GAME</string>
+    <string name="rules">HOW TO PLAY?</string>
+    <string name="highscores">HIGH SCORES!</string>
+
+    <string name="rules_details">The goal of the game is to guess the correct number between <b>0</b> and <b>100</b>. Input your guess and the game will tell you whether the correct number is smaller or larger than your guess.</string>
+
+    <string name="game_detail_title">Can you guess the number ?</string>
+    <string name="num_higher">Too high</string>
+    <string name="num_lower">Too low</string>
+    <string name="num_correct">Congratulations! You guessed my number</string>
+    <string name="btnGuessText">GUESS</string>
+</resources>
