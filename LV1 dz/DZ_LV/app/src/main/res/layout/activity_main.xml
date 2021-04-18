@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#333"
+        android:orientation="horizontal" >
+
+
+        <Button
+            android:id="@+id/nav1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#333"
+            android:text="Lazar \n Novovic"
+            android:layout_centerVertical="true"
+            android:layout_weight="1"
+            android:textColor="#FFF"/>
+
+        <Button
+            android:id="@+id/nav2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#333"
+            android:layout_centerVertical="true"
+            android:text="Chris \n Heria"
+            android:layout_weight="1"
+
+            android:textColor="#FFF" />
+
+        <Button
+            android:id="@+id/nav3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:background="#333"
+            android:layout_weight="1"
+
+            android:text="Michael \n Vasquez"
+            android:textColor="#FFF" />
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#d35400"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#333"
+        android:textColor="#e67e22"
+        android:textAlignment="center"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:text="Home Page" />
+
+    <ListView
+        android:id="@+id/androidList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"/>
+
+
+</LinearLayout>
+
+

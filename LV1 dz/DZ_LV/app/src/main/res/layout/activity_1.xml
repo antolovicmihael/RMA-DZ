@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/lazar_novovic_more"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam aliquet scelerisque tortor congue posuere. Praesent ac viverra magna. Donec volutpat maximus quam, eget bibendum nisl scelerisque vel. Duis ultricies pharetra nunc imperdiet dictum. Aliquam erat volutpat. Sed convallis libero non orci varius, sed porttitor lectus iaculis. Morbi id arcu ut velit placerat rutrum vitae id augue. Nam quam massa, bibendum eu mattis quis, condimentum iaculis lacus. Nullam faucibus id leo a maximus.
+Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed pharetra, nunc vel dignissim volutpat, lectus massa egestas orci, ac vestibulum mi mi ut."
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="18dp"
+        android:textColor="#555"
+        android:layout_marginTop="20dp"/>
+
+     <Button
+         android:id="@+id/homepage"
+         android:layout_width="250dp"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:layout_marginTop="20dp"
+         android:background="#333"
+         android:textColor="#e67e22"
+         android:text="Back to home page"
+         android:layout_marginBottom="50dp"/>
+</LinearLayout>
+
+</ScrollView>
